@@ -62,14 +62,15 @@ body {
 }
 
 #countdown {
-  font-weight: bold;
-  font-size: 80px;
-  margin: 0px auto;
-  color: red;
   width: 50px;
   height: 50px;
-  padding-left: 20px;
-  padding-right: 20px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  font-weight: bold;
+  font-size: 70px;
+  transform: translate(-40%, -90%);
+  color: red;
   }
 
 #button {
